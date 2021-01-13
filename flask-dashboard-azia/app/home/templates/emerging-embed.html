@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0022)http://127.0.0.1:3000/ -->
+<!-- saved from url=(0022)/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-27168379-1"></script>
     <script>
@@ -15,10 +15,10 @@
 
     
     <meta name="theme-color" content="#000000">
-    <link rel="shortcut icon" href="http://127.0.0.1:3000/navigator/favicon.ico">
-    <link rel="manifest" href="http://127.0.0.1:3000/navigator/manifest.json">
+    <link rel="shortcut icon" href="/navigator/favicon.ico">
+    <link rel="manifest" href="/navigator/manifest.json">
 
-    <title>Index</title>
+    <title>Source Network</title>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic|Philosopher:400,700" type="text/css">
@@ -45,7 +45,7 @@
     <meta name="twitter:url" content="https://www.mapequation.org/navigator">
     <meta name="twitter:image" content="https://www.mapequation.org/assets/img/InfomapNetworkNavigator.png">
 
-    <script type="text/javascript" src="http://127.0.0.1:3000/papaparse.min.js.download" async=""></script>
+    <script type="text/javascript" src="/papaparse.min.js.download" async=""></script>
 <style type="text/css">header {
     padding: 30px;
     background: linear-gradient(to bottom, rgba(100, 80, 50, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
@@ -65,7 +65,7 @@
 }
 
 .brand {
-    font-family: Georgia, serif;
+    font-family: 'Verdana', sans-serif;
     font-weight: 700;
     /*font-size: 24px;*/
 }
@@ -81,39 +81,18 @@
 
 .brand-infomap {
     color: #555;
+    font-size: 22px;
 }
 
 .brand-nn {
     color: #B22222;
+    font-size: 22px;
 }
 
 .content {
     padding-left: 10px;
 }
 
-.brand1 {
-    font-family: Georgia, serif;
-    font-weight: 700;
-    /*font-size: 24px;*/
-}
-
-.brand1 .logo-icon {
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    background-size: 100%;
-    /*-webkit-filter: drop-shadow(1px 1px 0px white);*/
-}
-
-
-.brand-nn1 {
-    color: #B22222;
-}
-
-.content1 {
-    padding-left: 10px;
-}
 
 .documentation {
     text-shadow: rgba(255, 255, 255, 0.746094) 0 1px 0;
@@ -164,6 +143,41 @@ a:active, a:hover {
     color: #128BC2;
 }
 
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #783232;
+    opacity: 0.7;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align:center
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #783232;
+}
+
+
 code {
     font-family: Menlo, Consolas, Monaco, monospace, sans-serif;
     font-weight: 300;
@@ -177,33 +191,91 @@ code {
     <header class="documentation">
         <div class="ui container">
             <div class="menu">
-                <div><h1 class="ui header">
-                    <a href="http://127.0.0.1:3000/"></a>
-                    <div class="content1">
-                        <span class="brand1">
-                            <span class=""></span>
-                            <span class="brand-nn1">Overview</span>
-                        </span>
-                            <div class="sub header">Technical overview of our work</div>
+                <div>
+                    <h1 class="ui header">
+                        <a href="/"></a>
+                        <div class="content">
+                            <span class="brand">
+                                <span class="brand-infomap">Emerging Trends</span>
+                                <span class="brand-nn"></span>
+                            </span>
+                            <div class="sub header">Emerging Trend predicted by VAR models for upcoming months</div>
                             <div class="sub header"></div>
-                        </div></h1>
-                    </div>
+                        </div>
+                    </h1>
                 </div>
             </div>
-        </header>
-        <div style="padding: 600px 0px; background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) center top / cover, url('http://127.0.0.1:5000/static/assets/img/bg.jpg') 0% 0% / cover scroll";>
         </div>
-        <div class="ui container" style="padding: 40px 0px;">
-            <div class="ui one column grid">
-                <div class="column">
-                    <center>
-                        <p>Network Visualization Powered by <a href="http://www.mapequation.org/code.html">MapEquation</a> available under MIT License.</p>
-                    </center>
-                </div>
+    </header>
+    <div style="padding: 100px 0px; background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)) center top / cover, url('/static/assets/img/bg2.jpg') 0% 0% / cover no-repeat";>
+        <div class="ui text container ui very padded center aligned segment" style="padding: 50px 0px;">
+            <h2></h2>
+            <center>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>January</th>
+                        <th>February</th>
+                    </tr>
+                </thead>
+                <tbody>
+                      <tr>
+                        <td>respiratory failure</td>
+                        <td>psychiatric</td>
+                      </tr>
+                      <tr>
+                        <td>asthma</td>
+                        <td>respiratory failure</td>
+                      </tr>
+                      <tr>
+                        <td>respiratory distress syndrome</td>
+                        <td>asthma</td>
+                      </tr>
+                      <tr>
+                        <td>acute respiratory syndrome coronavirus</td>
+                        <td>respiratory distress syndrome</td>
+                      </tr>
+                      <tr>
+                        <td>tumor</td>
+                        <td>venous thromboembolism</td>
+                      </tr>
+                      <tr>
+                        <td>acute kidney injury</td>
+                        <td>acute respiratory syndrome coronavirus</td>
+                      </tr>
+                      <tr>
+                        <td>dry cough</td>
+                        <td>pulmonary embolism</td>
+                      </tr>
+                      <tr>
+                        <td>thrombotic</td>
+                        <td>chronic diseases</td>
+                      </tr>
+                      <tr>
+                        <td>thromboembolic</td>
+                        <td>tumor</td>
+                      </tr>
+                      <tr>
+                        <td>lymphopenia</td>
+                        <td>thrombolic</td>
+                      </tr>
+                    <!-- and so on... -->
+                </tbody>
+            </table>
+            </center>
+        </div>
+    </div>
+    <div class="ui container" style="padding: 40px 0px;">
+        <div class="ui one column grid">
+            <div class="column">
+                <center><p>Network Visualization Powered by <a href="http://www.mapequation.org/code.html">mapequation</a> available under MIT License.</p>
+                </center>
             </div>
-        </div></div>
+        </div>
+    </div>
+</div>
 
-<script src="http://127.0.0.1:3000/navigator/static/js/bundle.js"></script> 
-<script src="http://127.0.0.1:3000/navigator/static/js/0.chunk.js"></script>
+<script src="/navigator/static/js/bundle.js"></script> 
+<script src="/navigator/static/js/0.chunk.js"></script>
 
 </body></html>
