@@ -1,0 +1,182 @@
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+TensorBoard 1.13.1 at http://Chandler:6006 (Press CTRL+C to quit)
+I0110 00:03:06.083568 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:06] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 00:03:06.443564 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:06] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 00:03:06.451448 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:06] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 00:03:06.453606 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:06] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 00:03:06.455214 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:06] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 00:03:07.200104 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 00:03:07.201896 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 00:03:07.203542 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 00:03:07.205606 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+WARNING:tensorflow:From /home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/plugins/projector/projector_plugin.py:410: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+W0110 00:03:07.242381 139727803954944 deprecation.py:323] From /home/reddys/covid/env37/lib/python3.7/site-packages/tensorboard/plugins/projector/projector_plugin.py:410: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+I0110 00:03:07.364084 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 00:03:07.365968 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 00:03:07.367269 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 00:03:07.370685 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 00:03:07.420952 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 00:03:07.746022 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 00:03:07.952838 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:07] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 00:03:08.326370 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:08] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 00:03:11.438020 139729867835136 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:11] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 00:03:35.370750 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:35] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 00:03:36.240280 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 00:03:36.246901 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 00:03:36.248737 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 00:03:36.253223 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 00:03:36.382975 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 00:03:36.384674 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 00:03:36.386022 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 00:03:36.387329 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 00:03:36.443395 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 00:03:36.552874 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 00:03:36.648038 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 00:03:36.649483 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 00:03:36.651509 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 00:03:36.865522 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:36] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 00:03:37.085177 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:37] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 00:03:37.133708 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 00:03:37] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 07:24:34.223363 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:34] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 07:24:35.220155 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 07:24:35.222194 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 07:24:35.257272 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 07:24:35.299468 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 07:24:35.361911 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 07:24:35.363379 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 07:24:35.365780 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 07:24:35.423028 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 07:24:35.424697 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 07:24:35.429872 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 07:24:35.431205 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 07:24:35.461768 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:35] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 07:24:43.159389 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:43] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 07:24:43.398112 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:43] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 07:24:43.622194 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:43] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 07:24:43.708316 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:43] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 07:24:48.289449 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:24:48] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 07:25:02.742994 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:02] "[37mGET /data/plugin/images/tags HTTP/1.1[0m" 200 -
+I0110 07:25:05.030204 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/plugin/text/tags HTTP/1.1[0m" 200 -
+I0110 07:25:05.342620 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 07:25:05.377559 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 07:25:05.379318 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 07:25:05.398793 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 07:25:05.465410 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 07:25:05] "[37mGET /data/plugin/text/tags HTTP/1.1[0m" 200 -
+I0110 11:17:21.063273 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 11:17:21] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 12:05:15.822221 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:15] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 12:05:16.756056 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 12:05:16.757992 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 12:05:16.764284 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 12:05:16.765832 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 12:05:16.867150 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 12:05:16.908336 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:16] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 12:05:17.043321 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:17] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 12:05:17.088535 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:17] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 12:05:17.383391 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:17] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 12:05:18.362202 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 12:05:18.438210 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 12:05:18.439914 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 12:05:18.529001 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 12:05:18.754448 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 12:05:18.884106 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:18] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 12:05:19.091447 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:19] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 12:05:20.570543 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 12:05:20] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 13:03:21.518443 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:21] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 13:03:22.504478 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 13:03:22.696887 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 13:03:22.746748 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 13:03:22.748414 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 13:03:22.750970 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 13:03:22.753109 139727820740352 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 13:03:22.755238 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 13:03:22.780936 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 13:03:22.809046 139727812347648 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 13:03:22.812381 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 13:03:22.816342 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 13:03:22.844253 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 13:03:22.892682 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:22] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 13:03:23.430674 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:23] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 13:03:23.534905 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:23] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 13:03:23.589133 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:23] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 13:03:25.264047 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:03:25] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 13:32:49.354491 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:49] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 13:32:50.478361 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 13:32:50.480540 139727786383104 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 13:32:50.537752 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 13:32:50.540281 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 13:32:50.587162 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 13:32:50.602294 139727246432000 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 13:32:50.644942 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 13:32:50.646501 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 13:32:50.659228 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 13:32:50.660866 139727246432000 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 13:32:50.739275 139729876227840 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 13:32:50.792258 139727786383104 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 13:32:50.793684 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 13:32:50.966768 139727786383104 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:50] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 13:32:51.140524 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:51] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 13:32:51.231604 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:51] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 13:32:55.117631 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 13:32:55] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 18:00:31.756565 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:31] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 18:00:36.053442 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:36] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 18:00:36.211078 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:36] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 18:00:36.340675 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:36] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 18:00:36.747863 139727246432000 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:36] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 18:00:36.894330 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:36] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 18:00:37.226578 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:37] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 18:00:38.319811 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:38] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 18:00:38.377794 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:38] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 18:00:38.452627 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:38] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 18:00:38.847380 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:38] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 18:00:39.244933 139727794775808 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:39] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 18:00:39.332730 139727803954944 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:39] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 18:00:39.434100 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:39] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 18:00:41.014153 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:41] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 18:00:47.350841 139727164405504 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:47] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 18:00:48.023817 139727164405504 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:00:48] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 18:01:25.296768 139727164405504 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:01:25] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 18:47:55.703499 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:55] "[37mGET / HTTP/1.1[0m" 200 -
+I0110 18:47:55.836851 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:55] "[37mGET /tf-interactive-inference-dashboard/explorecounterfactuals.png HTTP/1.1[0m" 200 -
+I0110 18:47:55.838224 139727246432000 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:55] "[37mGET /tf-interactive-inference-dashboard/pdplots.png HTTP/1.1[0m" 200 -
+I0110 18:47:55.839259 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:55] "[37mGET /tf-interactive-inference-dashboard/distance.png HTTP/1.1[0m" 200 -
+I0110 18:47:55.842134 139727164405504 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:55] "[37mGET /tf-interactive-inference-dashboard/editedexample.png HTTP/1.1[0m" 200 -
+I0110 18:47:56.804418 139727290230528 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 18:47:56.807053 139727164405504 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 18:47:56.807970 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 18:47:56.809618 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 18:47:56.859570 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/plugins_listing HTTP/1.1[0m" 200 -
+I0110 18:47:56.961778 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/environment HTTP/1.1[0m" 200 -
+I0110 18:47:56.972543 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/runs HTTP/1.1[0m" 200 -
+I0110 18:47:56.974094 139727281837824 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:56] "[37mGET /data/experiments HTTP/1.1[0m" 200 -
+I0110 18:47:57.024553 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:57] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 18:47:57.321311 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:57] "[37mGET /data/plugin/projector/runs HTTP/1.1[0m" 200 -
+I0110 18:47:57.526664 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:57] "[37mGET /data/plugin/projector/info?run=. HTTP/1.1[0m" 200 -
+I0110 18:47:57.591187 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:57] "[37mGET /data/plugin/projector/tensor?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -
+I0110 18:47:59.242190 139727298623232 _internal.py:113] ::ffff:192.168.1.17 - - [10/Jan/2021 18:47:59] "[37mGET /data/plugin/projector/metadata?run=.&name=Variable&num_rows=100000 HTTP/1.1[0m" 200 -

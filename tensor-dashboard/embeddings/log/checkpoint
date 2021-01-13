@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\harsh\\Documents\\evidenceflow\\tensor_dashboard/embeddings/log/images.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\harsh\\Documents\\evidenceflow\\tensor_dashboard/embeddings/log/images.ckpt"

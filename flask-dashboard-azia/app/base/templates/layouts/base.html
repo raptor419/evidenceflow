@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="BootstrapDash">    
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/assets/favicon.png">
+
+    <title>
+        EvidenceFlow - {% block title %}{% endblock %}
+    </title>
+
+    <!-- vendor css -->
+    <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="/static/assets/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- Page CSS Plugins goes HERE  -->
+    {% block plugin_stylesheets %}{% endblock plugin_stylesheets %}
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="/static/assets/css/azia.css">
+
+    <!-- Specific Page CSS goes HERE  -->
+    {% block stylesheets %}{% endblock stylesheets %}
+
+</head>
+<body>
+
+    {% include 'includes/navigation.html' %}
+
+    {% block content %}{% endblock content %}
+
+    {% include 'includes/footer.html' %}
+
+    {% include 'includes/scripts.html' %}
+
+    <!-- Page JS Plugins goes HERE  -->
+    {% block plugin_javascripts %}{% endblock plugin_javascripts %}
+
+    <script src="/static/assets/js/azia.js"></script>
+
+    <!-- Specific Page JS goes HERE  -->
+    {% block javascripts %}{% endblock javascripts %}
+
+</body>
+</html>
