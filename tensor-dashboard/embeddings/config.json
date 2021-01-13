@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "NER Embeddings",
+      "tensorShape": [
+        33009,
+        100
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/raptor419/evidenceflow/main/tensor-dashboard/embeddings/vector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/raptor419/evidenceflow/main/tensor-dashboard/embeddings/metadata.tsv"
+    }
+  ]
+}
