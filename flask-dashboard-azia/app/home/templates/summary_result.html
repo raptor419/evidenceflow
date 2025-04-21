@@ -1,0 +1,69 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- vendor css -->
+    <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="/static/assets/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="/static/assets/css/azia.css">
+      <div class="container">
+        <div class="w3-container" style="margin-top:80px" id="showcase">
+            <h1 class="w3-jumbo"><b>EvidenceFlow</b></h1>
+            <h1 class="w3-xxxlarge w3-text-green"><b>Text Summarization</b></h1>
+            <!-- <hr style="width:50px;border:5px solid lightgreen" class="w3-round"> -->
+            <p>Enter a term related with Covid-19 </p>
+            <form action="/summary_result" method="POST">
+              <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Enter the keyword  " >
+              <div style="margin-bottom: 10px;"></div> 
+              <button type="submit" class="btn btn-primary" >Submit</button>
+            </form>
+            <div style="margin-bottom: 10px;"></div> 
+            <p>Eg: Vaccine, Economy, Pregnant, Cancer, Pneumonia, Covid</p>
+            <!-- <p>diarrhea, Rheumatic, mortality rate </p> -->
+            <p>Summary generated from peer reviewed papers present in WHO archives</p>
+            <!-- <p>Click the "Submit" button and the form-data will be sent to a page on the server called "/action_page.php".</p> -->
+            <hr height = "20px">
+            {% block summary %}{% endblock summary %}
+            <div style="margin-bottom: 2cm;"></div> 
+            {% for thing in result[0] %}
+            <p>Summary of {{thing}}</p>
+            {% endfor %}
+            <ul>
+              {% for thing in result[1] %}
+              <i><li style="color: #B22222;"><p style="color: #B22222;">{{ thing }}</p></li></i>
+              {% endfor %}
+            </ul>
+            <div style="margin-bottom: 1cm;"></div>
+        </div>
+        </div><!-- az-content-body -->
+      </div>
+    <!-- </div> az-content -->
+
+{% endblock content %}
+
+<!-- Page JS Plugins goes HERE  -->
+{% block plugin_javascripts %}
+
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.js"></script>
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="/static/assets/lib/chart.js/Chart.bundle.min.js"></script>
+    <script src="/static/assets/lib/peity/jquery.peity.min.js"></script>
+
+{% endblock plugin_javascripts %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/js/chart.flot.sampledata.js"></script>
+    <script src="/static/assets/js/dashboard.sampledata.js"></script>
+    
+{% endblock javascripts %}

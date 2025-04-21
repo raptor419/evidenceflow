@@ -7,6 +7,157 @@
 
 {% block content %}
 
+<style type="text/css">header {
+    padding: 30px;
+    background: linear-gradient(to bottom, rgba(100, 80, 50, 0.35) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.mapequation-logo {
+    padding-top: 6px;
+    width: 57px;
+    height: 57px;
+}
+
+.brand {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 700;
+    /*font-size: 24px;*/
+}
+
+.brand .logo-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    /*-webkit-filter: drop-shadow(1px 1px 0px white);*/
+}
+
+.brand-infomap {
+    color: #555;
+    font-size: 22px;
+}
+
+.brand-nn {
+    color: #B22222;
+    font-size: 22px;
+}
+
+.content {
+    padding-left: 10px;
+}
+
+
+.documentation {
+    text-shadow: rgba(255, 255, 255, 0.746094) 0 1px 0;
+}
+
+/*
+.documentation .ui.header {
+    font-weight:300;
+    color:#128BC2;
+}
+*/
+.documentation .row {
+    margin: 10px 0;
+}
+
+</style><style type="text/css">html, body, #root {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 300;
+    color: #666;
+    background: #F5F2F0 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAACHUlEQVQ4T1XUCW5bMQwEUMn7cv8btmnqxLGT1vui4AkY4EeA8BeRwyGHVN38+d3G43GxW2tlMpmU2+1Wns9nWSwW5Xg8ltFoVB6PR7FWq1V/v1wuZTqdltls1r/v93v3qW+vLy1G1+u1gzLMYhgnjvZ6vS6Hw6HUWrv9fD7v7+fzudTPj/eG0XK57GzCCojNUUBngDgBAczndDr1ZzKsUpamH2EACDPgngCkLTA2QNjLRABPDPs+fO2b6Fg4BAbAO+dhPdVIWRCwwkpQAe263bw2yD7ChKOoDLEG4Okc6wTzz3vE6gx375sWhTgC4ugQOyuMvLNlk/SjtjLIrn7ttl2U1ISBVKXGEVuLje+0SECdC4hEb5v/n7sG3QdQikVJQAHkpCypl7P0J3AYylH/vvxqXoYNnTZK6tgKZqUTiJgSCGr3ftxv37ooqQkj32mXGEZ5QMoS4aJ6MuwqY+iHFBgDV2DGomKvwaUWgdIBAgjGtquc0UsPpiUAAx32oToBTHAEYhO1e8qZW3XS5EN1h+OFReo4nJxhRn30oqzotnQsABikPhFEwPRr1I5P/bf/6KOXuY2a6UdMpJoejBjqlbbiw74LShSFV3SgDqWAqUC5NHIGMO2k3rLzD/s+KQAZOJBiqOfSjVPEyiWQWvNxraU7+qRgl5+ZDE8tkbFMegDCVpAMxI/bRsqYOcwtDAjzlCA3cxpZTaN67k4kvgH79HB6cJuWywAAAABJRU5ErkJggg==');
+    background-size: 10px 10px;
+}
+
+.ui.grid {
+    height: 100%;
+}
+
+.ui.header {
+    font-weight: 300;
+    color: #128BC2;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+.styled-table thead tr {
+    background-color: #783232;
+    opacity: 0.7;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align:center
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #783232;
+}
+
+code {
+    font-family: Menlo, Consolas, Monaco, monospace, sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+.table{
+        padding-top: 20px;
+        display: block;
+   }  /* show it on smaller screen */
+
+.not-table{
+        display: none;
+   }  /* show it on smaller screen */
+
+}
+@media screen and (min-width: 501px) {
+.table{
+        display: none;
+    }   /* hide it on larger screens */
+.not-table{
+        display: block;
+    }   /* hide it on larger screens */
+}
+
+
+</style>
+
     <!-- vendor css -->
     <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -15,14 +166,99 @@
 
     <!-- azia CSS -->
     <link rel="stylesheet" href="/static/assets/css/azia.css">
-      <div class="container">
+      <div class="container table">
+        <div class="az-content-body">
+          <!-- <iframe scrolling="no" src="http://precog.iiitd.edu.in/covidnlp_tensorboard/#projector" style=" position: absolute; right: 10px ; border: 0px none; margin-left: -00px; height: 100%; margin-top: -70px; width: 120%;">
+        </iframe> -->
+        <header class="documentation">
+        <div class="ui container">
+            <div class="menu">
+                <div>
+                    <h1 class="ui header">
+                        <a href="/"></a>
+                        <div class="content">
+                            <span class="brand">
+                                <span class="brand-infomap">Emerging Trends</span>
+                                <span class="brand-nn"></span>
+                            </span>
+                            <div class="brand-infomap">Emerging Trend predicted by VAR models in upcoming months</div>
+                            <div class="sub header"></div>
+                        </div>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        </header>
+        <center>
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>January</th>
+                        <th>February</th>
+                    </tr>
+                </thead>
+                <tbody>
+                      <tr>
+                        <td>respiratory failure</td>
+                        <td>psychiatric</td>
+                      </tr>
+                      <tr>
+                        <td>asthma</td>
+                        <td>respiratory failure</td>
+                      </tr>
+                      <tr>
+                        <td>respiratory distress syndrome</td>
+                        <td>asthma</td>
+                      </tr>
+                      <tr>
+                        <td>acute respiratory syndrome coronavirus</td>
+                        <td>respiratory distress syndrome</td>
+                      </tr>
+                      <tr>
+                        <td>tumor</td>
+                        <td>venous thromboembolism</td>
+                      </tr>
+                      <tr>
+                        <td>acute kidney injury</td>
+                        <td>acute respiratory syndrome coronavirus</td>
+                      </tr>
+                      <tr>
+                        <td>dry cough</td>
+                        <td>pulmonary embolism</td>
+                      </tr>
+                      <tr>
+                        <td>thrombotic</td>
+                        <td>chronic diseases</td>
+                      </tr>
+                      <tr>
+                        <td>thromboembolic</td>
+                        <td>tumor</td>
+                      </tr>
+                      <tr>
+                        <td>lymphopenia</td>
+                        <td>thrombolic</td>
+                      </tr>
+                    <!-- and so on... -->
+                </tbody>
+            </table>
+            </center>
+
+
+        </div><!-- az-content-body -->
+      </div>
+
+
+      <div class="container not-table">
         <div class="az-content-body">
           <!-- <iframe scrolling="no" src="http://precog.iiitd.edu.in/covidnlp_tensorboard/#projector" style=" position: absolute; right: 10px ; border: 0px none; margin-left: -00px; height: 100%; margin-top: -70px; width: 120%;">
         </iframe> -->
         <iframe scrolling="yes" src="/emerging-embed.html" style="position: absolute; right: 0px ; border: 0px none; margin-left: 00px; height: 100%; margin-top: 00px; width: 100%;">
         </iframe>
+
         </div><!-- az-content-body -->
       </div>
+
+
     <!-- </div> az-content -->
 
 {% endblock content %}

@@ -20,8 +20,8 @@
 
     <title>Index</title>
 
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic|Philosopher:400,700" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic|Philosopher:400,700" type="text/css">
 
     <meta name="description" content="Infomap Network Navigator - Interactive hierarchical network navigator">
     <meta name="author" content="">
@@ -146,6 +146,22 @@ code {
     font-family: Menlo, Consolas, Monaco, monospace, sans-serif;
     font-weight: 300;
 }
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+.abstract{
+                padding: 0px 0px; 
+                background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) center top / cover;
+		height: 70%;
+   }  /* show it on smaller screen */
+}
+@media screen and (min-width: 501px) {
+.abstract{
+                padding: 0px 0px; 
+                background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) center top / cover;    }   /* hide it on larger screens */
+}
+
+/* url('/static/assets/img/graphabs.jpg') center / 70% 100% no-repeat; upper top / 100% 100% no-repeat; */
+
 </style></head>
 <body data-new-gr-c-s-check-loaded="14.991.0" data-gr-ext-installed="">
 <noscript>
@@ -159,24 +175,108 @@ code {
                     <a href="/"></a>
                     <div class="content">
                         <span class="brand">
+                            <span class="brand-infomap">EvidenceFlow</span>
+                            <span class="brand-nn">What is EvidenceFlow?</span>
+                        </span>
+                            <div class="sub header">EvidenceFlow is an open-source interactive web application built upon COVID-19 specific literature vetted by the WHO,
+				for tracking literature trends using alluvial diagrams, projection of influential entities, 
+				and network analysis across different months. The dashboard assists the user to understand the current and upcoming trends in the literature. 
+				The functionality of each tab has been mentioned below. </div>
+                            <div class="sub header"></div>
+
+			<div class="ui text container ui center aligned segment" style="padding: 10px; margin-left:20px; margin-right:20px">
+ 			<span class="brand">
+                            <span class="brand-infomap">Description /</span>
+                            <span class="brand-nn">Guide</span>
+                        </span>
+			</br>
+			<hr>
+
+			<span class="brand">
+                            <span class="brand-infomap">Alluvial Diagram</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">Select two or more months from the Add Month section, one by one. Once the months are selected, you can drag and change the 
+				order of these months in the Node/Month list that appears below. Click on the Create Diagram button to visualize the alluvial diagram. 
+				The alluvial diagram helps in tracking the trends in the literature between the selected months. It eases tracing the temporal dynamics 
+				of literature across different time intervals. In the Module Explorer panel on the right, there are multiple features that can help in 
+				better visualization, e.g., by painting all nodes of a selected module. </div>
+                            <div class="sub header"></div>
+
+			<span class="brand">
+                            <span class="brand-infomap">Multi-level Network</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">Select a specific month from the "Select Month" button. This illustrates the communities in the networks that are 
+				formed across entities extracted from the literature. More information about this network is given in the paper. </div>
+                            <div class="sub header"></div>
+
+			<span class="brand">
+                            <span class="brand-infomap">Source-level Network</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">Select a specific month from the "Select Month" button. This illustrates the source networks that are formed across 
+				diseases entities extracted from the literature. The link between two diseases suggests an association between two entities based 
+				on the cosine similarity. </div>
+                            <div class="sub header"></div>
+
+
+			<span class="brand">
+                            <span class="brand-infomap">Embedding Projector</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">Once we click on the "Embedding Projector" tab, it illustrates the latent space of the low dimensional word embeddings 
+				trained on the literature of COVID-19. The search option allows the user to query the nearest entity present across it. Isolate point 
+				allows the user to isolate N nearest points present around it. </div>
+                            <div class="sub header"></div>
+
+
+			<span class="brand">
+                            <span class="brand-infomap">Emerging Trends</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">This tab demonstrates the forecasted trends for the upcoming months based on the Link Prediction of entities.  </div>
+                            <div class="sub header"></div>
+
+
+			<span class="brand">
                             <span class="brand-infomap">Overview</span>
                             <span class="brand-nn"></span>
                         </span>
-                            <div class="sub header">Technical overview of our proposed pipeline</div>
+                            <div class="sub header">This demonstrates the architecture of our current study. We have also attached the link to the paper in that tab.  </div>
                             <div class="sub header"></div>
+
+
+			<span class="brand">
+                            <span class="brand-infomap">Extra Features</span>
+                            <span class="brand-nn"></span>
+                        </span>
+                            <div class="sub header">This tab cumulates two features, "Text Summarisation" and "Word Algebra". 
+				Text summarisation allows text summary of keywords from the abstract of literature. 
+				It highlights important points related to searched keywords from the extensive corpus of abstracts. 
+				The "Word Algebra" facilitates the linking of dimensional space based on vector algebra. 
+				It instantiates an intuition related to the vector space of the corpus for which the language model has been trained. </div>
+                            <div class="sub header"></div>
+			
+			</div>
+
+
+
+			
                         </div></h1>
                     </div>
                 </div>
             </div>
         </header>
-        <div style="padding: 600px 0px; background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) center top / cover, url('/static/assets/img/bg.jpg') 0% 0% / cover scroll";>
+        <div class="abstract">
         </div>
-        <div class="ui container" style="padding: 40px 0px;">
+        <div class="ui container" style="padding: 0px 0px;">
             <div class="ui one column grid">
                 <div class="column">
                     <center>
-                        <p>Network Visualization Powered by <a href="http://www.mapequation.org/code.html">MapEquation</a> available under MIT License.</p>
+                       <h3><p>Read our full paper on medrxiv <a href="https://www.medrxiv.org/content/10.1101/2021.01.14.21249855v1" target="_blank"><br/>Predicting Emerging Themes in Rapidly Expanding COVID-19 Literature with Dynamic Word Embedding Networks and Machine Learning</a></p></h3>
                     </center>
+			<br>
                 </div>
             </div>
         </div></div>

@@ -1,0 +1,76 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- vendor css -->
+    <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="/static/assets/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="/static/assets/css/azia.css">
+      <div class="container">
+        <div class="w3-container" style="margin-top:80px" id="showcase">
+            <h1 class="w3-xxxlarge w3-text-green" ><b>Word Algebra</b></h1>
+            <!-- <hr style="width:50px;border:5px solid lightgreen" class="w3-round"> -->
+            <p>Enter the words to be added in the result vector in a comma separated manner </p>
+            <form action="/algebra_result" method="POST">
+              <input type="text" class="form-control" id="positive" name="positive" placeholder="Eg: economy,education ">
+              <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+              <p>Enter the words to be subtracted in the result vector in a comma separated manner </p>
+              <input type="text" class="form-control" id="negative" name="negative" placeholder="Eg: education,corona">
+              <div style="margin-bottom: 10px;"></div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div style="margin-bottom: 10px;"></div>
+            <p>Results given by a high dimensional representation of the corpus trained through word2Vec algorithm</p>
+            <hr height = "20px">
+            {% block algebra %}{% endblock algebra %}
+            <div style="margin-bottom: 10px;"></div>
+            {% if result[1] %}
+            <p>The closest 3 words in the learned space are - </p>
+            {% endif %}
+            {% for thing in result[0] %}
+            <i><li style="color: #B22222;">{{ thing }}</li></i>
+            {% endfor %}
+            <div id="algebra2"></div>
+            {% if result[1] %}
+            <div style="margin-bottom: 10px;"></div>
+            <p>The equation was : <i> {{result[1]}} </i>  </p> 
+            <script>
+                // document.getElementById('#algebra').scrollIntoView();
+                // // or
+                document.location.hash = '#algebra2';
+            </script>
+            {% endif %}
+            <div style="margin-bottom: 1cm;"></div>
+        </div>
+        </div><!-- az-content-body -->
+      </div>
+    <!-- </div> az-content -->
+
+{% endblock content %}
+
+<!-- Page JS Plugins goes HERE  -->
+{% block plugin_javascripts %}
+
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.js"></script>
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="/static/assets/lib/chart.js/Chart.bundle.min.js"></script>
+    <script src="/static/assets/lib/peity/jquery.peity.min.js"></script>
+
+{% endblock plugin_javascripts %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/js/chart.flot.sampledata.js"></script>
+    <script src="/static/assets/js/dashboard.sampledata.js"></script>
+    
+{% endblock javascripts %}

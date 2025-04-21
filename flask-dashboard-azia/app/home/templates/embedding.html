@@ -7,6 +7,26 @@
 
 {% block content %}
 
+<style type="text/css">
+@media screen and (min-width: 0px) and (max-width: 500px) {
+.notemb{
+        display: block;
+   }  /* show it on smaller screen */
+
+.emb{
+        display: none;
+   }  /* show it on smaller screen */
+
+}
+@media screen and (min-width: 501px) {
+.notemb{
+        display: none;
+    }   /* hide it on larger screens */
+.emb{
+        display: block;
+    }   /* hide it on larger screens */
+}
+</style>
     <!-- vendor css -->
     <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -15,9 +35,18 @@
 
     <!-- azia CSS -->
     <link rel="stylesheet" href="/static/assets/css/azia.css">
-      <div class="container">
+      <div class="container emb">
         <div class="az-content-body">
-          <iframe scrolling="no" src="http://precog.iiitd.edu.in/covidnlp_tensorboard/#projector" style=" position: absolute; right: 10px ; border: 0px none; margin-left: -00px; height: 100%; margin-top: -70px; width: 120%;">
+          <iframe scrolling="no" src="/projector/" style=" position: absolute; right: 10px ; border: 0px none; margin-left: -00px; height: 100%; margin-top: -70px; width: 120%;">
+        </iframe>
+        <!-- <iframe scrolling="no" src="http://127.0.0.1:4000/" style="position: absolute; right: 0px ; border: 0px none; margin-left: 00px; height: 100%; margin-top: 00px; width: 100%;">
+        </iframe>
+         --></div><!-- az-content-body -->
+      </div>
+
+      <div class="container notemb">
+        <div class="az-content-body">
+          <iframe scrolling="no" src="/projector-redirect.html" style="position: absolute; right: 0px ; border: 0px none; margin-left: 00px; height: 100%; margin-top: 00px; width: 100%;">
         </iframe>
         <!-- <iframe scrolling="no" src="http://127.0.0.1:4000/" style="position: absolute; right: 0px ; border: 0px none; margin-left: 00px; height: 100%; margin-top: 00px; width: 100%;">
         </iframe>

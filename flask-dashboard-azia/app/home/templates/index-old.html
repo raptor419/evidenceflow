@@ -1,0 +1,46 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- vendor css -->
+    <link href="/static/assets/lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="/static/assets/lib/typicons.font/typicons.css" rel="stylesheet">
+    <link href="/static/assets/lib/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="/static/assets/css/azia.css">
+      <div class="container">
+        <div class="az-content-body">
+          <!-- <iframe scrolling="no" src="http://precog.iiitd.edu.in/covidnlp_tensorboard/#projector" style=" position: absolute; right: 10px ; border: 0px none; margin-left: -00px; height: 100%; margin-top: -70px; width: 120%;">
+        </iframe> -->
+        <iframe scrolling="yes" src="/index-embed.html" style="position: absolute; right: 0px ; border: 0px none; margin-left: 0px; height: 100%; margin-top: 00px; width: 100%;">
+        </iframe>
+        </div><!-- az-content-body -->
+      </div>
+    <!-- </div> az-content -->
+
+{% endblock content %}
+
+<!-- Page JS Plugins goes HERE  -->
+{% block plugin_javascripts %}
+
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.js"></script>
+    <script src="/static/assets/lib/jquery.flot/jquery.flot.resize.js"></script>
+    <script src="/static/assets/lib/chart.js/Chart.bundle.min.js"></script>
+    <script src="/static/assets/lib/peity/jquery.peity.min.js"></script>
+
+{% endblock plugin_javascripts %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+
+    <script src="/static/assets/js/chart.flot.sampledata.js"></script>
+    <script src="/static/assets/js/dashboard.sampledata.js"></script>
+    
+{% endblock javascripts %}
